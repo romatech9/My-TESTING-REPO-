@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="theme-color"
+        content="#050505"
+    >
+
+    <title>MUFASER-X Pairing</title>
+
+    <link
+        rel="stylesheet"
+        href="/style.css"
+    >
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="card">
+
+            <div class="logo">
+                MX
+            </div>
+
+            <h1>MUFASER-X</h1>
+
+            <p class="subtitle">
+                WhatsApp Session Generator
+            </p>
+
+            <div id="formBox">
+
+                <label for="number">
+                    WhatsApp Number
+                </label>
+
+                <input
+                    id="number"
+                    type="tel"
+                    inputmode="numeric"
+                    autocomplete="tel"
+                    placeholder="256700000000"
+                >
+
+                <p class="hint">
+                    Country code required. Do not use +
+                </p>
+
+                <button id="pairButton">
+                    Generate Pairing Code
+                </button>
+
+            </div>
+
+            <div
+                id="resultBox"
+                class="hidden"
+            >
+
+                <p
+                    id="statusText"
+                    class="status"
+                >
+                    Preparing MUFASER-X...
+                </p>
+
+                <div
+                    id="codeBox"
+                    class="hidden"
+                >
+
+                    <p class="codeTitle">
+                        PAIRING CODE
+                    </p>
+
+                    <div id="pairCode">
+                        ---- ----
+                    </div>
+
+                    <button id="copyButton">
+                        Copy Code
+                    </button>
+
+                    <div class="steps">
+
+                        <p>
+                            1. Open WhatsApp
+                        </p>
+
+                        <p>
+                            2. Open Linked devices
+                        </p>
+
+                        <p>
+                            3. Tap Link a device
+                        </p>
+
+                        <p>
+                            4. Choose Link with phone number
+                        </p>
+
+                        <p>
+                            5. Enter the code above
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <footer>
+                <p>
+                    Created by
+                    <strong>ROMA-TECH</strong>
+                </p>
+
+                <p>
+                    Powered by MUFASER-X
+                </p>
+            </footer>
+
+        </section>
+
+    </main>
+
+    <script src="/script.js"></script>
+
+</body>
+</html>
