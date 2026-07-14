@@ -1,0 +1,16 @@
+{
+  "name": "mufaser-x-pairing",
+  "version": "1.0.0",
+  "description": "MUFASER-X WhatsApp Pairing Website",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "baileys": "^7.0.0",
+    "express": "^5.1.0",
+    "pino": "^9.7.0"
+  }
+}
