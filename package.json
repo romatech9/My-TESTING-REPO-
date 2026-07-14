@@ -1,0 +1,17 @@
+{
+  "name": "mufaser-x",
+  "version": "1.0.0",
+  "description": "MUFASER-X WhatsApp Bot by ROMA-TECH",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "session": "node session.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "7.0.0-rc13",
+    "dotenv": "^17.2.0",
+    "pino": "^9.7.0"
+  }
+}
